@@ -6,6 +6,14 @@ parkrun-parse will parse multiple park run results, and generate two output file
 
 Park Run results are aggregated on a per-minute finish time. This allows you to see the bell curve of finishers for a particular park run, and how it compares to other runs. 
 
+## Requirements
+Install the following three dependencies in order to run the code: 
+```
+pip3 install bs4 --upgrade
+pip3 install matplotlib --upgrade
+pip3 install pandas --upgrade
+```
+
 ## Running the code
 You can pass as many arguments as you look, with each argument pointing to a particular Park Run's latest results page:
 ```
