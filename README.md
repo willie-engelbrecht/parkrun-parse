@@ -15,7 +15,7 @@ pip3 install pandas --upgrade
 ```
 
 ## Running the code
-You can pass as many arguments as you look, with each argument pointing to a particular Park Run's latest results page:
+You can pass as many arguments as you need, with each argument pointing to a particular Park Run's latest results page:
 ```
 python3 parkrun.py 'https://www.parkrun.org.uk/chelmsfordcentral/results/latestresults/' 'https://www.parkrun.co.za/goldenharvest/results/latestresults/' 'https://www.parkrun.org.uk/brentwood/results/latestresults/'
 
